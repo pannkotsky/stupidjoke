@@ -16,5 +16,7 @@ setuptools.setup(name='stupidjoke',
                  install_requires=[
                            'markdown',
                        ],
-                 scripts=['bin/stupid-joke'],
+                 entry_points={
+                     'console_scripts': ['stupid-joke=stupidjoke.cmd.stupid_joke:main']
+                 },
                  zip_safe=False)
