@@ -6,7 +6,7 @@ def readme():
         return f.read()
 
 setuptools.setup(name='stupidjoke',
-                 version='0.1.1',
+                 version='0.2',
                  description='The most stupid joke in the world',
                  url='http://github.com/pannkotsky/stupidjoke',
                  author='Valerii Kovalchuk',
