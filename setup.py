@@ -1,6 +1,10 @@
 import setuptools
 
 
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
 setuptools.setup(name='stupidjoke',
                  version='0.1.1',
                  description='The most stupid joke in the world',
