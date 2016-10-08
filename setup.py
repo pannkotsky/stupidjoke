@@ -14,10 +14,11 @@ setuptools.setup(name='stupidjoke',
                  license='MIT',
                  packages=['stupidjoke'],
                  install_requires=[
-                           'markdown',
-                           'mock'
-                       ],
+                     'markdown',
+                     'mock'
+                 ],
                  entry_points={
-                     'console_scripts': ['stupid-joke=stupidjoke.cmd.stupid_joke:main']
+                     'console_scripts':
+                         ['stupid-joke=stupidjoke.cmd.stupid_joke:main']
                  },
                  zip_safe=False)
