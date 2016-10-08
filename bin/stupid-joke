@@ -1,0 +1,7 @@
+#!/usr/bin/python
+
+from stupidjoke import joke
+
+
+print(joke.joke())
+
