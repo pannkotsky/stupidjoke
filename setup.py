@@ -15,6 +15,7 @@ setuptools.setup(name='stupidjoke',
                  packages=['stupidjoke'],
                  install_requires=[
                            'markdown',
+                           'mock'
                        ],
                  entry_points={
                      'console_scripts': ['stupid-joke=stupidjoke.cmd.stupid_joke:main']
